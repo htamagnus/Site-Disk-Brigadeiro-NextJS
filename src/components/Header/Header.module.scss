@@ -1,0 +1,33 @@
+@import "../../../styles/Variaveis";
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 70px;
+    padding: 20px;
+    background: $marrom;
+    color: $bege;
+    font-size: 20px;
+
+    &__lista {
+        list-style: none;
+        cursor: pointer;
+        &:hover {
+            color: $rosa;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .cabecalho {
+        display: flex;
+        justify-content: flex-end;
+        &__lista {
+            display: none;
+        }
+    }
+
+}

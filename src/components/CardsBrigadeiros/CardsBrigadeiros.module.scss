@@ -1,0 +1,57 @@
+@import "../../../styles/Variaveis";
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    gap: 40px;
+    background-color: #EBE3D0;
+    flex-wrap: wrap;
+
+    &__card {
+        width: 400px;
+        height: 340px;
+        gap: 10px;
+        padding: 10px 20px 20px 20px;
+        box-sizing: border-box;
+        border: 2px solid #42220D;
+        border-radius: 6px;
+        box-shadow: 2px 2px 2px 1px rgba(66, 38, 38, 0.2);
+    }
+
+    &__titulo {
+        font-family: $fonte-especial;
+        color: $marrom;
+        font-weight: 100;
+        font-size: 40px;
+    }
+
+    &__paragrafo {
+        font-size: 16px;
+        color: $marrom;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .cards {
+        &__card {
+            width: 300px;
+            height: 300px;
+            gap: 10px;
+            padding: 10px 20px 20px 20px;
+            box-sizing: border-box;
+            border: 2px solid #42220D;
+            border-radius: 6px;
+            box-shadow: 2px 2px 2px 1px rgba(66, 38, 38, 0.2);
+        }
+        &__titulo {
+            font-size: 36px;
+        }
+        &__imagem{ 
+            width: 180px;
+            height: 160px;
+        }
+
+    }
+}
