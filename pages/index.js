@@ -1,16 +1,17 @@
-import Banner from '@/src/components/Banner/Banner'
 import CardsBrigadeiros from '@/src/components/CardsBrigadeiros/CardsBrigadeiros'
 import Texto from '@/src/components/Texto/Texto'
 import Head from 'next/head'
 import Header from '../src/components/Header/Header'
 import { useEffect } from "react";
+import dynamic from 'next/dynamic'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+const Banner = dynamic(() => import ("@/src/components/Banner/Banner"));
 
 export default function Home() {
   useEffect(() => {
     AOS.init({
-    offset: 110,
+    offset: 80,
     startEvent: 'DOMContentLoaded',
     initClassName: 'aos-init',
     animatedClassName: 'aos-animate'
