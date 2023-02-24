@@ -27,10 +27,10 @@ export default function Header() {
           <li>{data.title}</li>
         </ul>
       ))}
-        <a href="">
+        <a href="https://www.instagram.com/brigadeirodisk/" target="_blank">
           <BsInstagram size={24} style={{ color: "#EBE3D0" }} />
         </a>
-        <a href="">
+        <a href="https://wa.me/555185143463" target="_blank">
           <BsWhatsapp size={24} style={{ color: "#EBE3D0" }} />
         </a>
     </header>
