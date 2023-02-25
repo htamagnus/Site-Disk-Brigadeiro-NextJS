@@ -75,8 +75,9 @@ export default function CardsBrigadeiros() {
           <p className={styles.cards__paragrafo}>{data.text}</p>
         </div>
       ))}
-
     </div>
+
+    <Texto texto="Alfajores e Brownies" />
 
     </>
   );

@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
     height: 70px;
     padding: 20px;
     background: $marrom;
@@ -12,21 +11,37 @@
     font-size: 20px;
 
     &__lista {
+        display: flex;
+        gap: 50px;
+
         list-style: none;
+    }
+
+    &__item {
         cursor: pointer;
         &:hover {
             color: $rosa;
             transition: 0.3s ease-in-out;
         }
     }
+
+    &__botaomobile {
+        display: none;
+    }
 }
+
 
 @media screen and (max-width: 480px) { 
     .cabecalho {
         display: flex;
-        justify-content: flex-end;
-        &__lista {
+        justify-content: space-between;
+
+        &__item {
             display: none;
+        }
+        
+        &__botaomobile {
+            display: block;
         }
     }
 

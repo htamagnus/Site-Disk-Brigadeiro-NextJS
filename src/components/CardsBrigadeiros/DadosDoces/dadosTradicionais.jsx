@@ -1,8 +1,13 @@
 import Default from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Default.png"
+import Tradicional from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Tradicional.png"
+import Beijinho from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Beijinho.png"
 import Limao from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Limao.png"
 import Maracuja from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Maracuja.png"
 import Banoffe from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Banoffe.png"
 import NinhoENutella from "../../CardsBrigadeiros/FotosDoces/Tradicionais/NinhoENutella.png"
+import Confete from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Confete.png"
+import Flor from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Flor.png"
+
 import RedVelvet from "../../CardsBrigadeiros/FotosDoces/Tradicionais/RedVelvet.png"
 import Napolitano from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Napolitano.png"
 import OlhoDeSograQueimado from "../../CardsBrigadeiros/FotosDoces/Tradicionais/OlhoDeSograQueimado.png"
@@ -10,13 +15,13 @@ import OlhoDeSogra from "../../CardsBrigadeiros/FotosDoces/Tradicionais/OlhoDeSo
 
 export const dadosTradicionais = [
   {
-    image: Default,
+    image: Tradicional,
     title: "Tradicional",
     text: "Brigadeiro com massa preta envolvido em granulado preto",
     alt: "Brigadeiro com massa preta envolvido em granulado preto",
   },
   {
-    image: Default,
+    image: Beijinho,
     title: "Beijinho",
     text: "Brigadeiro com massa branca envolvida no coco ralado",
     alt: "Brigadeiro com massa branca envolvida no coco ralado",
@@ -118,8 +123,8 @@ export const dadosTradicionais = [
     alt: "Brigadeiro de massa branca com crosta de açúcar QUEIMADO com maçarico",
   },
   {
-    image: Default,
-    title: "Confeitos",
+    image: Confete,
+    title: "Confete",
     text: "Brigadeiro de massa branca com crosta de açúcar QUEIMADO com maçarico",
     alt: "Brigadeiro de massa branca com crosta de açúcar QUEIMADO com maçarico",
   },
@@ -136,7 +141,7 @@ export const dadosTradicionais = [
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
   },
   {
-    image: Default,
+    image: Flor,
     title: "Flor",
     text: "Flor de brigadeiro de chocolate preto ou branco, nas cores de sua preferência",
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
