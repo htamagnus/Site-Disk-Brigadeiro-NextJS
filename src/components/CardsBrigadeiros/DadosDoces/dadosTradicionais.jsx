@@ -2,15 +2,20 @@ import Default from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Default.png"
 import Tradicional from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Tradicional.png"
 import Beijinho from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Beijinho.png"
 import Casadinho from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Casadinho.png"
+import Pacoca from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Pacoca.png"
+import Cajuzinho from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Cajuzinho.png"
 import Cafe from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Cafe.png"
 import Limao from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Limao.png"
 import Maracuja from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Maracuja.png"
 import Banoffe from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Banoffe.png"
 import NinhoENutella from "../../CardsBrigadeiros/FotosDoces/Tradicionais/NinhoENutella.png"
 import Confete from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Confete.png"
+import Brulee from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Brulee.png"
 import Flor from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Flor.png"
 import RedVelvet from "../../CardsBrigadeiros/FotosDoces/Tradicionais/RedVelvet.png"
 import Napolitano from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Napolitano.png"
+import Ovomaltine from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Ovomaltine.png"
+import Ferrero from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Ferrero.png"
 import OlhoDeSograQueimado from "../../CardsBrigadeiros/FotosDoces/Tradicionais/OlhoDeSograQueimado.png"
 import OlhoDeSogra from "../../CardsBrigadeiros/FotosDoces/Tradicionais/OlhoDeSogra.png"
 
@@ -52,13 +57,13 @@ export const dadosTradicionais = [
     alt: "Brigadeiro branco saborizado com pasta de amendoim, envolvido em amendoim triturado",
   },
   {
-    image: Default,
+    image: Pacoca,
     title: "Paçoca",
     text: "Brigadeiro com massa preta envolvido em paçoca",
     alt: "Brigadeiro com massa preta envolvido em paçoca",
   },
   {
-    image: Default,
+    image: Cajuzinho,
     title: "Cajuzinho",
     text: "Brigadeiro de chocolate com amendoim envolvido no açúcar",
     alt: "Brigadeiro com massa preta envolvido em paçoca",
@@ -136,7 +141,7 @@ export const dadosTradicionais = [
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
   },
   {
-    image: Default,
+    image: Brulee,
     title: "Brulee",
     text: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
@@ -196,7 +201,7 @@ export const dadosTradicionais = [
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
   },
   {
-    image: Default,
+    image: Ovomaltine,
     title: "Ovomaltine®",
     text: "Flor de brigadeiro de chocolate preto ou branco, nas cores de sua preferência",
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
@@ -208,7 +213,7 @@ export const dadosTradicionais = [
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
   },
   {
-    image: Default,
+    image: Ferrero,
     title: "Ferrero®",
     text: "Flor de brigadeiro de chocolate preto ou branco, nas cores de sua preferência",
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",

@@ -1,6 +1,7 @@
 import Default from '../FotosDoces/Belgas/Default.png'
 import Physalis from '../FotosDoces/Finos/Physalis.png'
 import Cereja from '../FotosDoces/Finos/Cereja.png'
+import Camafeu from '../FotosDoces/Finos/Camafeu.png'
 import TrufaUva from '../FotosDoces/Finos/TrufaUva.png'
 
 export const dadosFinos = [ 
@@ -41,7 +42,7 @@ export const dadosFinos = [
         alt: "Brigadeiro com massa preta envolvido em granulado preto",
       },
       {
-        image: Default,
+        image: Camafeu,
         title: "Camafeu",
         text: "Brigadeiro com massa preta envolvido em granulado preto",
         alt: "Brigadeiro com massa preta envolvido em granulado preto",

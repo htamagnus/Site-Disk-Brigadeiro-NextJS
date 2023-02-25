@@ -1,6 +1,7 @@
 import Default from '../FotosDoces/Caramelizados/Default.png'
 import OlhoDeSograCaramelizado from '../FotosDoces/Caramelizados/OlhoDeSograCaramelizado.png'
 import Ourico from '../FotosDoces/Caramelizados/Ourico.png'
+import MiniQuindim from "../FotosDoces/Caramelizados/MiniQuindim.png"
 
 export const dadosCaramelizados = [ 
     {
@@ -40,7 +41,7 @@ export const dadosCaramelizados = [
         alt: "Brigadeiro com massa preta envolvido em granulado preto",
       },
       {
-        image: Default,
+        image: MiniQuindim,
         title: "Mini Quindim",
         text: "Brigadeiro com massa preta envolvido em granulado preto",
         alt: "Brigadeiro com massa preta envolvido em granulado preto",
