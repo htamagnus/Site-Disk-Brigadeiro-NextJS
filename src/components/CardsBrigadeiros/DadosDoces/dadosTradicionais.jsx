@@ -1,13 +1,14 @@
 import Default from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Default.png"
 import Tradicional from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Tradicional.png"
 import Beijinho from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Beijinho.png"
+import Casadinho from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Casadinho.png"
+import Cafe from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Cafe.png"
 import Limao from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Limao.png"
 import Maracuja from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Maracuja.png"
 import Banoffe from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Banoffe.png"
 import NinhoENutella from "../../CardsBrigadeiros/FotosDoces/Tradicionais/NinhoENutella.png"
 import Confete from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Confete.png"
 import Flor from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Flor.png"
-
 import RedVelvet from "../../CardsBrigadeiros/FotosDoces/Tradicionais/RedVelvet.png"
 import Napolitano from "../../CardsBrigadeiros/FotosDoces/Tradicionais/Napolitano.png"
 import OlhoDeSograQueimado from "../../CardsBrigadeiros/FotosDoces/Tradicionais/OlhoDeSograQueimado.png"
@@ -33,7 +34,7 @@ export const dadosTradicionais = [
     alt: "Brigadeiro com massa branca envolvida no leite em pó Ninho",
   },
   {
-    image: Default,
+    image: Casadinho,
     title: "Casadinho",
     text: "Brigadeiro com massa preta e branca envolvido em granulado preto e branco",
     alt: "Brigadeiro com massa preta e branca envolvido em granulado preto e branco",
@@ -63,7 +64,7 @@ export const dadosTradicionais = [
     alt: "Brigadeiro com massa preta envolvido em paçoca",
   },
   {
-    image: Default,
+    image: Cafe,
     title: "Café",
     text: "Brigadeiro de chocolate e café envolvido em chocolate amargo triturado",
     alt: "Brigadeiro de chocolate e café envolvido em chocolate amargo triturado",

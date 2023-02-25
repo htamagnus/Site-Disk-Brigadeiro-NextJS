@@ -2,7 +2,7 @@ import Default from "../FotosDoces/Tradicionais/Default.png"
 import BelgaAoLeite from "../FotosDoces/Belgas/BelgaAoLeite.png"
 import BrancoLascas from "../FotosDoces/Belgas/BrancoLascas.png"
 import Sensacao from "../FotosDoces/Belgas/Sensacao.png"
-
+import Damasco from "../FotosDoces/Belgas/Damasco.png"
 
 export const dadosBelgas = [
     {
@@ -66,7 +66,7 @@ export const dadosBelgas = [
       alt: "Brigadeiro com massa preta envolvido em granulado preto",
     },
     {
-      image: Default,
+      image: Damasco,
       title: "Damasco",
       text: "Brigadeiro com massa preta envolvido em granulado preto",
       alt: "Brigadeiro com massa preta envolvido em granulado preto",
