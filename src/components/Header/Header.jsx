@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className={styles.cabecalho}>
       <button onClick={onClick} className={styles.cabecalho__botaomobile}>
-        <GiHamburgerMenu size={32} />
+       <GiHamburgerMenu size={32} />
       </button>
       <nav ref={dropDownRef} className={`menu ${isActive ? styles.menu : ""}`}>
         <ul className={styles.cabecalho__lista}>
