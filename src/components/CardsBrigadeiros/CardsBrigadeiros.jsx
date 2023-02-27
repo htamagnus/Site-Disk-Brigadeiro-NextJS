@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./CardsBrigadeiros.module.scss";
 import { dadosTradicionais } from "./DadosDoces/dadosTradicionais";
 import { dadosBelgas } from "./DadosDoces/dadosBelgas";
@@ -6,8 +6,13 @@ import { dadosCaramelizados } from "./DadosDoces/dadosCaramelizados";
 import { dadosFinos } from "./DadosDoces/dadosFinos";
 import Image from "next/image";
 import Texto from "../Texto/Texto";
+import { BsArrowUpCircle } from "react-icons/bs";
 
 export default function CardsBrigadeiros() {
+  function subirTopo() {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <>
       <Texto texto="Brigadeiros Tradicionais" />
@@ -29,6 +34,16 @@ export default function CardsBrigadeiros() {
             <p className={styles.cards__paragrafo}>{data.text}</p>
           </div>
         ))}
+      </div>
+
+      <div className={styles.voltar}>
+        <button
+          onClick={subirTopo}
+          className={styles.voltar__botao}
+        >
+          <BsArrowUpCircle size={32} />
+          <a className={styles.voltar__texto} href="#topo"></a>
+        </button>
       </div>
 
       <div id="belgas">
@@ -54,6 +69,16 @@ export default function CardsBrigadeiros() {
         ))}
       </div>
 
+      <div className={styles.voltar}>
+        <button
+          onClick={subirTopo}
+          className={styles.voltar__botao}
+        >
+          <BsArrowUpCircle size={32} />
+          <a className={styles.voltar__texto} href="#topo"></a>
+        </button>
+      </div>
+
       <div id="caramelizados">
         <Texto texto="Doces Caramelizados" />
       </div>
@@ -77,6 +102,16 @@ export default function CardsBrigadeiros() {
         ))}
       </div>
 
+      <div className={styles.voltar}>
+        <button
+          onClick={subirTopo}
+          className={styles.voltar__botao}
+        >
+          <BsArrowUpCircle size={32} />
+          <a className={styles.voltar__texto} href="#topo"></a>
+        </button>
+      </div>
+
       <div id="finos">
         <Texto texto="Doces Finos e Trufas" />
       </div>
@@ -97,6 +132,16 @@ export default function CardsBrigadeiros() {
             <p className={styles.cards__paragrafo}>{data.text}</p>
           </div>
         ))}
+      </div>
+
+      <div className={styles.voltar}>
+        <button
+          onClick={subirTopo}
+          className={styles.voltar__botao}
+        >
+          <BsArrowUpCircle size={32} />
+          <a className={styles.voltar__texto} href="#topo"></a>
+        </button>
       </div>
 
       <Texto texto="Alfajores e Brownies" />

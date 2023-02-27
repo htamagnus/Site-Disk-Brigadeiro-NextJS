@@ -72,8 +72,14 @@ export const dadosFinos = [
         alt: "Brigadeiro com massa preta envolvido em granulado preto",
       },
       {
+        image: Default,
+        title: "Trufa Morango",
+        text: "Brigadeiro com massa preta envolvido em granulado preto",
+        alt: "Brigadeiro com massa preta envolvido em granulado preto",
+      },
+      {
         image: TrufaUva,
-        title: "Trufa de fruta",
+        title: "Trufa de Uva",
         text: "Brigadeiro com massa preta envolvido em granulado preto",
         alt: "Brigadeiro com massa preta envolvido em granulado preto",
       },

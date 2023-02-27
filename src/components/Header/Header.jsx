@@ -9,7 +9,7 @@ export default function Header() {
   const onClick = () => setIsActive(!isActive);
 
   return (
-    <header className={styles.cabecalho}>
+    <header id="#topo" className={styles.cabecalho}>
       <button onClick={onClick} className={styles.cabecalho__botaomobile}>
         <GiHamburgerMenu size={32} />
       </button>

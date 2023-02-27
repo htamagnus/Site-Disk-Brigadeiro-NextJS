@@ -25,12 +25,6 @@ export const dadosBelgas = [
     },
     {
       image: Default,
-      title: "Doce de Leite",
-      text: "Brigadeiro com massa preta envolvido em granulado preto",
-      alt: "Brigadeiro com massa preta envolvido em granulado preto",
-    },
-    {
-      image: Default,
       title: "Mousse Maracujá",
       text: "Brigadeiro com massa preta envolvido em granulado preto",
       alt: "Brigadeiro com massa preta envolvido em granulado preto",
@@ -79,7 +73,7 @@ export const dadosBelgas = [
     },
     {
       image: Default,
-      title: "Meio a Meio",
+      title: "Casadinho Belga",
       text: "Brigadeiro com massa preta envolvido em granulado preto",
       alt: "Brigadeiro com massa preta envolvido em granulado preto",
     },

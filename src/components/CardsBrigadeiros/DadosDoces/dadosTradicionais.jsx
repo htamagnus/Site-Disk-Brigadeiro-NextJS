@@ -106,6 +106,12 @@ export const dadosTradicionais = [
   },
   {
     image: Default,
+    title: "Ninho com Morango",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veniam repellendus",
+    alt: "?",
+  },
+  {
+    image: Default,
     title: "Prestígio",
     text: "Brigadeiro com massa de banana com farofa e doce de leite",
     alt: "Brigadeiro com massa de banana com farofa  e doce de leite",
@@ -191,12 +197,6 @@ export const dadosTradicionais = [
   {
     image: Default,
     title: "Doce de Leite +",
-    text: "Flor de brigadeiro de chocolate preto ou branco, nas cores de sua preferência",
-    alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
-  },
-  {
-    image: Default,
-    title: "Doce de Leite ++",
     text: "Flor de brigadeiro de chocolate preto ou branco, nas cores de sua preferência",
     alt: "Brigadeiro de massa branca com Crispearls crocantes (branco, dourado, perolado)",
   },
