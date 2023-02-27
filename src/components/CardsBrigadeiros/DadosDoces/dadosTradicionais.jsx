@@ -101,7 +101,7 @@ export const dadosTradicionais = [
   {
     image: Default,
     title: "Pé de Moça",
-    text: "?",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veniam repellendus",
     alt: "?",
   },
   {

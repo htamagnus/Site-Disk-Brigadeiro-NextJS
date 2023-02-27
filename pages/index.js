@@ -29,7 +29,6 @@ export default function Home() {
       </Head>
       <Header/>
       <Banner />
-      <Texto texto="Brigadeiros Tradicionais" />
       <CardsBrigadeiros />
     </>
   )
