@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className={styles.cabecalho}>
       <button onClick={onClick} className={styles.cabecalho__botaomobile}>
-       <GiHamburgerMenu size={32} />
+        <GiHamburgerMenu size={32} />
       </button>
       <nav ref={dropDownRef} className={`menu ${isActive ? styles.menu : ""}`}>
         <ul className={styles.cabecalho__lista}>
@@ -40,20 +40,23 @@ export default function Header() {
               Doces Finos
             </a>
           </li>
-        </ul>
-        <ul className={styles.cabecalho__lista2}>
-          <li className={styles.cabecalho__links}>
-            <a href="https://www.instagram.com/brigadeirodisk/" target="_blank">
-              <BsInstagram size={30} style={{ color: "#EBE3D0" }} />
-            </a>
-          </li>
-          <li className={styles.cabecalho__links}>
-            <a href="https://wa.me/555185143463" target="_blank">
-              <BsWhatsapp size={30} style={{ color: "#EBE3D0" }} />
+          <li className={styles.cabecalho__item}>
+            <a className={styles.cabecalho__links} href="#finos">
+              Alfajores e Brownies
             </a>
           </li>
         </ul>
       </nav>
+      <div>
+        <div className={styles.cabecalho__redes}>
+          <a href="https://www.instagram.com/brigadeirodisk/" target="_blank">
+            <BsInstagram size={28} style={{ color: "#EBE3D0" }} />
+          </a>
+          <a href="https://wa.me/555185143463" target="_blank">
+            <BsWhatsapp size={28} style={{ color: "#EBE3D0" }} />
+          </a>
+        </div>
+      </div>
     </header>
   );
 }

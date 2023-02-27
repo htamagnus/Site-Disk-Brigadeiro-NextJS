@@ -46,6 +46,12 @@
     height: 34px;
     color: $marrom;
   }
+
+  &__redes {
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+  }
 }
 
 .menu {
@@ -78,6 +84,12 @@
 
     &__botaomobile {
       display: block;
+    }
+
+    &__redes {
+      display: flex;
+      gap: 20px;
+      padding-left: 140px;
     }
   }
 
