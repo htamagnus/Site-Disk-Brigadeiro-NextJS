@@ -5,7 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Header() {
   const dropDownRef = useRef(null);
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
   const onClick = () => setIsActive(!isActive);
 
   return (
