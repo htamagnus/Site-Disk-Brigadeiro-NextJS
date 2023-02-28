@@ -6,13 +6,9 @@ import { dadosCaramelizados } from "./DadosDoces/dadosCaramelizados";
 import { dadosFinos } from "./DadosDoces/dadosFinos";
 import Image from "next/image";
 import Texto from "../Texto/Texto";
-import { BsArrowUpCircle } from "react-icons/bs";
+import ButtonBackToTop from "../ButtonBackToTop/ButtonBackToTop";
 
 export default function CardsBrigadeiros() {
-  function subirTopo() {
-    window.scrollTo(0, 0);
-  }
-
   return (
     <>
       <Texto texto="Brigadeiros Tradicionais" />
@@ -36,15 +32,7 @@ export default function CardsBrigadeiros() {
         ))}
       </div>
 
-      <div className={styles.voltar}>
-        <button
-          onClick={subirTopo}
-          className={styles.voltar__botao}
-        >
-          <BsArrowUpCircle size={32} />
-          <a className={styles.voltar__texto} href="#topo"></a>
-        </button>
-      </div>
+      <ButtonBackToTop />
 
       <div id="belgas">
         <Texto texto="Brigadeiros Belgas" />
@@ -69,15 +57,7 @@ export default function CardsBrigadeiros() {
         ))}
       </div>
 
-      <div className={styles.voltar}>
-        <button
-          onClick={subirTopo}
-          className={styles.voltar__botao}
-        >
-          <BsArrowUpCircle size={32} />
-          <a className={styles.voltar__texto} href="#topo"></a>
-        </button>
-      </div>
+      <ButtonBackToTop />
 
       <div id="caramelizados">
         <Texto texto="Doces Caramelizados" />
@@ -102,15 +82,7 @@ export default function CardsBrigadeiros() {
         ))}
       </div>
 
-      <div className={styles.voltar}>
-        <button
-          onClick={subirTopo}
-          className={styles.voltar__botao}
-        >
-          <BsArrowUpCircle size={32} />
-          <a className={styles.voltar__texto} href="#topo"></a>
-        </button>
-      </div>
+      <ButtonBackToTop />
 
       <div id="finos">
         <Texto texto="Doces Finos e Trufas" />
@@ -133,17 +105,7 @@ export default function CardsBrigadeiros() {
           </div>
         ))}
       </div>
-
-      <div className={styles.voltar}>
-        <button
-          onClick={subirTopo}
-          className={styles.voltar__botao}
-        >
-          <BsArrowUpCircle size={32} />
-          <a className={styles.voltar__texto} href="#topo"></a>
-        </button>
-      </div>
-
+      <ButtonBackToTop />
     </>
   );
 }
