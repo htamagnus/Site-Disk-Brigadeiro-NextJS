@@ -31,7 +31,6 @@ export default function Home() {
       <Header/>
       <Banner />
       <CardsBrigadeiros />
-      <Texto texto="Quem somos?"/>
       <About />
     </>
   )
