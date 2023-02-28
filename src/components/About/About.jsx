@@ -6,7 +6,7 @@ import Equipe from '../About/Equipe.png'
 export default function About() {
   return (
     <div id="about" className={styles.about}>
-      <Image width={560} height={540} src={Equipe} alt="Equipe" className={styles.about__imagem}></Image>
+      <Image priority width={560} height={540} src={Equipe} alt="Equipe" className={styles.about__imagem}></Image>
       <nav className={styles.about__textos}>
         <p>
           Nossa história começa em 2015, com a paixão pela confeitaria. Ao longo dos
