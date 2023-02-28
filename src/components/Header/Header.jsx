@@ -45,6 +45,11 @@ export default function Header() {
               Alfajores e Brownies
             </a>
           </li>
+          <li className={styles.cabecalho__item}>
+            <a className={styles.cabecalho__links} href="#about">
+              Sobre
+            </a>
+          </li>
         </ul>
       </nav>
       <div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "./CardsBrigadeiros.module.scss";
 import { dadosTradicionais } from "./DadosDoces/dadosTradicionais";
 import { dadosBelgas } from "./DadosDoces/dadosBelgas";
@@ -144,7 +144,6 @@ export default function CardsBrigadeiros() {
         </button>
       </div>
 
-      <Texto texto="Alfajores e Brownies" />
     </>
   );
 }
