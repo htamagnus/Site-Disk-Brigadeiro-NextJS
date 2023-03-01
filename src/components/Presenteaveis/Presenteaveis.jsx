@@ -9,6 +9,7 @@ import "swiper/scss/pagination";
 import "swiper/scss/autoplay";
 import { EffectFade, Autoplay, Pagination } from "swiper";
 import Texto from "../Texto/Texto";
+import ButtonBackToTop from "../ButtonBackToTop/ButtonBackToTop";
 
 export default function Presenteaveis() {
   return (
@@ -139,6 +140,7 @@ export default function Presenteaveis() {
           </Swiper>
         </div>
       </div>
+      <ButtonBackToTop />
     </>
   );
 }

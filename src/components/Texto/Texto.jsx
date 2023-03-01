@@ -4,6 +4,7 @@ export default function Texto(props) {
   return (
     <>
       <p className={styles.texto}>{props.texto}</p>
+      
     </>
   );
 }

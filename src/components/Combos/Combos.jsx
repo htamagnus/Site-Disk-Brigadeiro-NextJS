@@ -9,6 +9,7 @@ import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 import "swiper/scss/autoplay";
 import { EffectFade, Autoplay, Pagination } from "swiper";
+import ButtonBackToTop from "../ButtonBackToTop/ButtonBackToTop";
 
 export default function Combos() {
   return (
@@ -197,6 +198,7 @@ export default function Combos() {
           </Swiper>
         </div>
       </div>
+      <ButtonBackToTop />
     </>
   );
 }

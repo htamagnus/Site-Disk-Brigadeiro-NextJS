@@ -20,6 +20,7 @@ export default function CardsBrigadeiros() {
             className={styles.cards__card}
             key={data.title}
           >
+            
             <Image
               priority
               src={data.image}
