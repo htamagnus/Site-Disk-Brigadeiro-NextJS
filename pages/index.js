@@ -7,6 +7,7 @@ import dynamic from 'next/dynamic'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About from '@/src/components/About/About';
+import Presenteaveis from '@/src/components/Presenteaveis/Presenteaveis';
 const Banner = dynamic(() => import ("@/src/components/Banner/Banner"));
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
       </Head>
       <Header/>
       <Banner />
+      <Presenteaveis />
       <CardsBrigadeiros />
       <About />
     </>
