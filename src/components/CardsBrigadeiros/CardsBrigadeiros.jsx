@@ -25,6 +25,8 @@ export default function CardsBrigadeiros() {
               src={data.image}
               alt={data.alt}
               className={styles.cards__imagem}
+              width="auto"
+              height="auto"
             />
             <h3 className={styles.cards__titulo}>{data.title}</h3>
             <p className={styles.cards__paragrafo}>{data.text}</p>
@@ -50,6 +52,8 @@ export default function CardsBrigadeiros() {
               src={data.image}
               alt={data.alt}
               className={styles.cards__imagem}
+              width="auto"
+              height="auto"
             />
             <h3 className={styles.cards__titulo}>{data.title}</h3>
             <p className={styles.cards__paragrafo}>{data.text}</p>
@@ -75,6 +79,8 @@ export default function CardsBrigadeiros() {
               src={data.image}
               alt={data.alt}
               className={styles.cards__imagem}
+              width="auto"
+              height="auto"
             />
             <h3 className={styles.cards__titulo}>{data.title}</h3>
             <p className={styles.cards__paragrafo}>{data.text}</p>
@@ -99,6 +105,8 @@ export default function CardsBrigadeiros() {
               src={data.image}
               alt={data.alt}
               className={styles.cards__imagem}
+              width="auto"
+              height="auto"
             />
             <h3 className={styles.cards__titulo}>{data.title}</h3>
             <p className={styles.cards__paragrafo}>{data.text}</p>

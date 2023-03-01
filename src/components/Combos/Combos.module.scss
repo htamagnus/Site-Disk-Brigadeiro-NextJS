@@ -6,16 +6,12 @@
     height: 540px;
     border: 2px solid $marrom;
     border-radius: $borda-padrao;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .carrossel {
     display: flex;
-    align-items: center;
+    gap: 30px;
     justify-content: center;
-    gap: 60px;
     background-color: $bege;   
     &__card {
         padding-top: 30px;
@@ -25,6 +21,8 @@
 .slide {
     background-color: $bege-2;
     &__imagem {
+        width: 450px;
+        height: 480px; 
         padding: 20px;
     }
     &__texto {

@@ -16,13 +16,13 @@ export default function Header() {
       <nav ref={dropDownRef} className={`menu ${isActive ? styles.menu : ""}`}>
         <ul className={styles.cabecalho__lista}>
           <li className={styles.cabecalho__item}>
-            <a className={styles.cabecalho__links} href="">
-              Combos
+            <a className={styles.cabecalho__links} href="#presenteaveis">
+              Presenteáveis
             </a>
           </li>
           <li className={styles.cabecalho__item}>
-            <a className={styles.cabecalho__links} href="#presenteaveis">
-              Presenteáveis
+            <a className={styles.cabecalho__links} href="">
+              Combos
             </a>
           </li>
           <li className={styles.cabecalho__item}>
