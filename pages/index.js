@@ -7,9 +7,9 @@ import dynamic from 'next/dynamic'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About from '@/src/components/About/About';
-import Presenteaveis from '@/src/components/Presenteaveis/Presenteaveis';
 import Combos from '@/src/components/Combos/Combos';
 const Banner = dynamic(() => import ("@/src/components/Banner/Banner"));
+const Presenteaveis = dynamic(() => import ("@/src/components/Presenteaveis/Presenteaveis"));
 
 export default function Home() {
   useEffect(() => {
