@@ -21,7 +21,7 @@ export default function Header() {
             </a>
           </li>
           <li className={styles.cabecalho__item}>
-            <a className={styles.cabecalho__links} href="">
+            <a className={styles.cabecalho__links} href="#presenteaveis">
               Presenteáveis
             </a>
           </li>

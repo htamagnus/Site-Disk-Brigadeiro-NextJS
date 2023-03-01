@@ -1,10 +1,14 @@
 @import "../../../styles/Variaveis";
 
+.swiper-pagination-bullet-active {
+    background-color: red !important;
+  }
+
 .mySwiper  {
     width: 450px;
     height: 540px;
     border: 2px solid $marrom;
-    border-radius: 6px;
+    border-radius: $borda-padrao;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,8 +18,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 120px;
-    background-color: $bege-2;   
+    gap: 100px;
+    background-color: $bege;   
 
     &__card {
         padding-top: 30px;
@@ -24,7 +28,7 @@
     }
 }
 .slide {
-    background-color: $bege;
+    background-color: $bege-2;
     &__imagem {
         width: 450px;
         height: 480px; 
@@ -64,7 +68,8 @@
         &__imagem {
             width: 100%;
             height: 460px; 
-            padding: 20px;
+            padding: 14px 14px 4px 14px;
+            border-radius: $borda-padrao;
         }
 }
     

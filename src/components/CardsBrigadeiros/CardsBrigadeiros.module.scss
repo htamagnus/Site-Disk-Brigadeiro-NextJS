@@ -6,7 +6,7 @@
     text-align: center;
     padding: 30px;
     gap: 40px;
-    background-color: $bege-2;
+    background-color: $bege;
     flex-wrap: wrap;
 
     &__card {
@@ -14,10 +14,9 @@
         height: 340px;
         gap: 10px;
         padding: 10px 20px 20px 20px;
-        background-color: $bege;
-        box-sizing: border-box;
+        background-color: $bege-2;
         border: 2px solid #42220D;
-        border-radius: 6px;
+        border-radius: $borda-padrao;
         box-shadow: 2px 2px 2px 1px rgba(66, 38, 38, 0.2);
     }
 
@@ -44,18 +43,10 @@
         &__card {
             width: 300px;
             height: 340px;
-            gap: 10px;
-            padding: 10px 20px 20px 20px;
-            box-sizing: border-box;
-            border: 2px solid #42220D;
-            border-radius: 6px;
-            box-shadow: 2px 2px 2px 1px rgba(66, 38, 38, 0.2);
         }
         &__titulo {
             font-size: $titulo-mobile;
         }
-
-
         &__imagem{ 
             width: auto;
             height: 170px;
