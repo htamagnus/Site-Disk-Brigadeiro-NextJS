@@ -41,7 +41,7 @@ export default function Presenteaveis() {
               <Image
                 priority
                 className={styles.slide__imagem}
-                src="/FotosPresenteaveis/Presenteaveis3.jpeg"
+                src="/FotosPresenteaveis/Presenteaveis1.png"
                 alt="descricao"
                 width={450}
                 height={480}
@@ -54,20 +54,7 @@ export default function Presenteaveis() {
             <SwiperSlide className={styles.slide}>
               <Image
                 className={styles.slide__imagem}
-                src="/FotosPresenteaveis/Presenteaveis3.jpeg"
-                alt="descricao"
-                width={450}
-                height={480}
-              />
-              <p className={styles.slide__texto}>
-                Opções com 12 doces sortidos
-              </p>
-            </SwiperSlide>
-
-            <SwiperSlide className={styles.slide}>
-              <Image
-                className={styles.slide__imagem}
-                src="/FotosPresenteaveis/Presenteaveis3.jpeg"
+                src="/FotosPresenteaveis/Presenteaveis2.png"
                 alt="descricao"
                 width={450}
                 height={480}
@@ -102,7 +89,7 @@ export default function Presenteaveis() {
               <Image
                 priority
                 className={styles.slide__imagem}
-                src="/FotosPresenteaveis/Presenteaveis3.jpeg"
+                src="/FotosPresenteaveis/Presenteaveis3.png"
                 alt="descricao"
                 width={450}
                 height={480}
@@ -115,7 +102,7 @@ export default function Presenteaveis() {
             <SwiperSlide className={styles.slide}>
               <Image
                 className={styles.slide__imagem}
-                src="/FotosPresenteaveis/Presenteaveis3.jpeg"
+                src="/FotosPresenteaveis/Presenteaveis4.png"
                 alt="descricao"
                 width={450}
                 height={480}
@@ -128,7 +115,19 @@ export default function Presenteaveis() {
             <SwiperSlide className={styles.slide}>
               <Image
                 className={styles.slide__imagem}
-                src="/FotosPresenteaveis/Presenteaveis3.jpeg"
+                src="/FotosPresenteaveis/Presenteaveis5.png"
+                alt="descricao"
+                width={450}
+                height={480}
+              />
+              <p className={styles.slide__texto}>
+                Opções com 24 doces sortidos
+              </p>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <Image
+                className={styles.slide__imagem}
+                src="/FotosPresenteaveis/Presenteaveis6.png"
                 alt="descricao"
                 width={450}
                 height={480}
