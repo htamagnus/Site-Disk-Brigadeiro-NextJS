@@ -38,7 +38,7 @@ export default function Presenteaveis() {
             className={styles.mySwiper}
           >
             <SwiperSlide className={styles.slide}>
-              <Image className={styles.slide__imagem} src={Presenteaveis1} alt="descricao"/>
+              <Image priority className={styles.slide__imagem} src={Presenteaveis1} alt="descricao"/>
               <div className={styles.slide__texto}>
                 <p>Opções com 12 doces sortidos</p>
               </div>
@@ -68,7 +68,7 @@ export default function Presenteaveis() {
             className={styles.mySwiper}
           >
             <SwiperSlide className={styles.slide}>
-              <Image className={styles.slide__imagem} src={Presenteaveis1} alt="descricao" />
+              <Image priority className={styles.slide__imagem} src={Presenteaveis1} alt="descricao" />
               <div className={styles.slide__texto}>
                 <p>Opções com 24 doces sortidos</p>
               </div>
